@@ -38,7 +38,7 @@ namespace Tesseract5Demo
                 //}
                 var task = new Task(() =>
                 {
-                    TesseractHelp.OCR(images.ToList(), "tha");
+                    TesseractHelp.OCR1(images.ToList(), "tha");
 
                 });
                 task.Start();
